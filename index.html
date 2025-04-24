@@ -172,8 +172,12 @@
       </div>
     </div>
   </section>
-   <footer>
-    Copyrights Protected &copy: {new Date().getFullYear()} Developed by Rocklin K S
+   <footer><p>
+  Copyright &copy; <span id="currentYear"></span> Developed by Rocklin K S
+</p>
+<script>
+  document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
    </footer> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 <script>
